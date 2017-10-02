@@ -1,0 +1,522 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"or",
+				"ordem"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"pr",
+				"print"
+			],
+			[
+				"fun",
+				"func_get_args"
+			],
+			[
+				"is",
+				"isPrimo"
+			],
+			[
+				"n",
+				"numFIN"
+			],
+			[
+				"con",
+				"contador"
+			],
+			[
+				"bo",
+				"bold"
+			],
+			[
+				"BA",
+				"background-color"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"op",
+				"option\tTag"
+			],
+			[
+				"text",
+				"texto"
+			],
+			[
+				"str_re",
+				"str_replace"
+			],
+			[
+				"sq",
+				"sqrt"
+			],
+			[
+				"ano",
+				"anoAtual"
+			],
+			[
+				"desc",
+				"Desconto"
+			],
+			[
+				"pre",
+				"precoINI"
+			],
+			[
+				"bol",
+				"bold"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"an",
+				"animation-delay"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"f",
+				"font-weight"
+			],
+			[
+				"b",
+				"background"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"num",
+				"number_format"
+			],
+			[
+				"form",
+				"money_format"
+			],
+			[
+				"padding",
+				"padding-right"
+			],
+			[
+				"bor",
+				"border-right"
+			],
+			[
+				"backgrou",
+				"background-color"
+			],
+			[
+				"TES",
+				"TESTE"
+			],
+			[
+				"ur",
+				"url"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"bac",
+				"background-image"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"ma",
+				"max-height"
+			],
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"widh",
+				"outline-width"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"fi",
+				"figcaption\tTag"
+			],
+			[
+				"jus",
+				"justify"
+			],
+			[
+				"txt",
+				"text-align"
+			],
+			[
+				"cont",
+				"content\tAttr"
+			],
+			[
+				"colo",
+				"color"
+			],
+			[
+				"max",
+				"maxlength\tAttr"
+			],
+			[
+				"me",
+				"meta\tTag"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"h",
+				"h4\tTag"
+			],
+			[
+				"hea",
+				"header\tTag"
+			],
+			[
+				"he",
+				"header\tTag"
+			],
+			[
+				"sect",
+				"section_main"
+			],
+			[
+				"blo",
+				"block"
+			],
+			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"heda",
+				"header\tTag"
+			],
+			[
+				"ti",
+				"title\tTag"
+			],
+			[
+				"conte",
+				"content\tAttr"
+			],
+			[
+				"met",
+				"meta\tTag"
+			],
+			[
+				"ca",
+				"calc_IMC"
+			],
+			[
+				"p_",
+				"p_Altura"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"valor",
+				"valorINI"
+			],
+			[
+				"valo",
+				"valorINI"
+			],
+			[
+				"VALO",
+				"valor2"
+			],
+			[
+				"VA",
+				"valor1"
+			],
+			[
+				"N",
+				"nomeCliente"
+			],
+			[
+				"idad",
+				"idadeCliente"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 311.0,
+		"last_filter": "Snippet: ",
+		"selected_items":
+		[
+			[
+				"Snippet: ",
+				"Snippet: html"
+			],
+			[
+				"",
+				"Set Syntax: PHP"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/P/flexcob/viavarejo/IntegracaoCyberRH.asp",
+		"/P/flexcob/viavarejo/FrmCadastroAcordo.asp",
+		"/P/flexcob/global/autenticar.asp",
+		"/C/inetpub/wwwroot/phpserver/cursoemvideo/php_basic/19_vetor_matriz_01.php",
+		"/C/inetpub/wwwroot/phpserver/cursoemvideo/php_basic/index.php",
+		"/P/library/FuncoesComuns.asp",
+		"/C/inetpub/wwwroot/phpserver/cursoemvideo/php_basic/18_vetor_matriz_01.php",
+		"/C/inetpub/wwwroot/phpserver/cursoemvideo/php_basic/16_funcoes_string_01.php",
+		"/C/inetpub/wwwroot/phpserver/cursoemvideo/php_basic/15_exemplo_include.php",
+		"/C/inetpub/wwwroot/phpserver/cursoemvideo/php_basic/15_exemplo_require.php",
+		"/C/inetpub/wwwroot/phpserver/cursoemvideo/php_basic/15_exemplo_require_once.php",
+		"/C/inetpub/wwwroot/phpserver/cursoemvideo/php_basic/15_exemplo_include_once.php",
+		"/C/inetpub/wwwroot/phpserver/cursoemvideo/php_basic/15_funcao.php",
+		"/C/inetpub/wwwroot/phpserver/cursoemvideo/php_basic/15_estrutura_functions_ex01.php",
+		"/C/inetpub/wwwroot/phpserver/cursoemvideo/php_basic/14_estrutura_functions_ex03.php",
+		"/C/inetpub/wwwroot/phpserver/cursoemvideo/php_basic/14_estrutura_functions_ex02.php",
+		"/C/inetpub/wwwroot/phpserver/cursoemvideo/php_basic/14_estrutura_functions_ex01.php",
+		"/C/inetpub/wwwroot/phpserver/cursoemvideo/php_basic/13_estrutura_for_ex02.php",
+		"/C/inetpub/wwwroot/phpserver/cursoemvideo/php_basic/13_estrutura_for_ex03.php",
+		"/C/inetpub/wwwroot/phpserver/cursoemvideo/php_basic/13_estrutura_for_ex01.php",
+		"/C/inetpub/wwwroot/phpserver/cursoemvideo/php_basic/12_estrutura_do_while_ex03.php",
+		"/P/flexcob/credz/frmCadastroTelefone.asp",
+		"/C/inetpub/wwwroot/phpserver/cursoemvideo/php_basic/12_estrutura_do_while_ex01.php",
+		"/C/inetpub/wwwroot/phpserver/cursoemvideo/php_basic/12_estrutura_do_while_ex02.php",
+		"/C/inetpub/wwwroot/phpserver/cursoemvideo/php_basic/11_estrutura_while_ex03.php",
+		"/C/inetpub/wwwroot/phpserver/cursoemvideo/php_basic/11_estrutura_while_ex02_request.php",
+		"/C/inetpub/wwwroot/phpserver/cursoemvideo/php_basic/11_estrutura_while_ex02.php",
+		"/C/inetpub/wwwroot/phpserver/cursoemvideo/php_basic/11_estrutura_while_ex01.php",
+		"/C/inetpub/wwwroot/phpserver/cursoemvideo/php_basic/10_estrutura_switch_ex03.php",
+		"/C/inetpub/wwwroot/phpserver/cursoemvideo/php_basic/10_estrutura_switch_ex02.php",
+		"/C/inetpub/wwwroot/phpserver/cursoemvideo/php_basic/10_estrutura_switch_ex01.php",
+		"/C/inetpub/wwwroot/phpserver/cursoemvideo/php_basic/menu_topo.php",
+		"/C/inetpub/wwwroot/phpserver/cursoemvideo/php_basic/08_html_e_php_form_ex02.php",
+		"/C/inetpub/wwwroot/cursoemvideo/php_basico/08_html_e_php_form_ex01.php",
+		"/C/inetpub/wwwroot/cursoemvideo/php_basico/_css/estilo.css",
+		"/C/inetpub/wwwroot/cursoemvideo/php_basico/06_operadores_atribuicao_04.php",
+		"/C/inetpub/wwwroot/cursoemvideo/php_basico/menu_topo.php",
+		"/C/inetpub/wwwroot/cursoemvideo/php_basico/arquivo_modelo.php",
+		"/C/inetpub/wwwroot/cursoemvideo/php_basico/06_operadores_atribuicao.php",
+		"/C/inetpub/wwwroot/cursoemvideo/php_basico/05_funcoes_aritimeticas.php",
+		"/C/inetpub/wwwroot/cursoemvideo/php_basico/04_variaveis.php",
+		"/C/inetpub/wwwroot/cursoemvideo/php_basico/05_operadores_aritimeticos.php",
+		"/C/inetpub/wwwroot/cursoemvideo/php_basico/funcoes_matematicas.php",
+		"/C/inetpub/wwwroot/cursoemvideo/php_basico/variaveis.php",
+		"/C/inetpub/wwwroot/html5/index.html",
+		"/C/inetpub/wwwroot/html5/ANDAMENTO_DO_PROJETO.txt",
+		"/C/inetpub/wwwroot/html5/04_olamundo.html",
+		"/C/inetpub/wwwroot/html5_avancado/03_html5_metadados.html",
+		"/C/inetpub/wwwroot/phpserver/index.html",
+		"/C/inetpub/wwwroot/ev_bradesco/html4_avancado/modulo_02_exercicio.html",
+		"/C/Users/carlos/Desktop/Exercicio/Exercicio1/Exerc1.html",
+		"/C/inetpub/wwwroot/ev_bradesco/html4_basico/modulo_09_mapeamento.html",
+		"/C/inetpub/wwwroot/ev_bradesco/html4_basico/exercicio5.html",
+		"/C/inetpub/wwwroot/ev_bradesco/html4_basico/modulo_07_ancoras_link.html",
+		"/C/inetpub/wwwroot/ev_bradesco/html4_basico/exercicio4.html",
+		"/C/inetpub/wwwroot/ev_bradesco/html4_basico/exercicio3.html",
+		"/C/inetpub/wwwroot/ev_bradesco/html4_basico/modulo_05_criando_listas.html",
+		"/C/inetpub/wwwroot/ev_bradesco/html4_basico/exercicio1.html",
+		"/C/inetpub/wwwroot/ev_bradesco/html4_basico/modulo_04_formatacao.html",
+		"/C/inetpub/wwwroot/ev_bradesco/html4_basico/modulo_03_primeiro_documento.html",
+		"/C/inetpub/wwwroot/ev_bradesco/html4_basico/modulo_02.html",
+		"/C/inetpub/wwwroot/ev_bradesco/html4_basico/modulo_01.html",
+		"/D/wwwroot/php_basico/get_post.php",
+		"/D/wwwroot/php_basico/request.php",
+		"/D/wwwroot/php_basico/validar_sessao.php",
+		"/D/wwwroot/php_basico/session.php",
+		"/D/wwwroot/php_basico/variaveis.php",
+		"/D/wwwroot/php_basico/funcoes.php",
+		"/D/wwwroot/php_basico/foreach.php",
+		"/D/wwwroot/php_basico/arrays.php",
+		"/D/wwwroot/php_basico/comando_for.php",
+		"/D/wwwroot/php_basico/comando_while.php",
+		"/D/wwwroot/php_basico/condicionais.php",
+		"/D/wwwroot/php_basico/operadores.php",
+		"/D/wwwroot/php_basico/aula1_variaveis.php"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"operacao",
+			" . "
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"."
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "php_oop.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 50.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
