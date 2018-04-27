@@ -15,8 +15,9 @@
 		</header>
 		<section>
 		<ol>
-			<li><a href="aula01/aula01.php">Aula 1" - Implementando 1º Classe em PHP</a></li>
-			<li>"Aula 2" - Visibilidade em um Objeto</li>
+			<li><a href="aula02/aula02.php">"Aula 2" - Implementando 1º Classe em PHP</a></li>
+			<li><a href="aula03/aula03.php">"Aula 3" - Visibilidade em um Objeto</a></li>
+			<li><a href="aula04/aula04.php">"Aula 4" - Métodos Especiais (Get/Set/Constructor)</a></li>
 		</ol>
 		</section>
 		<footer>			
