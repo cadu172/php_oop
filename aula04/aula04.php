@@ -34,15 +34,13 @@ require_once 'Class_Caneta.php';
 				/*
 					cria uma instancia da classe e inicializa os atributos
 				*/
-				$caneta_azul = new Caneta;
-				$caneta_azul->modelo = "BIC";
-				$caneta_azul->cor = "AZUL";
-				//$caneta_azul->ponta = 0.5;
-				//$caneta_azul->carga = "25%";
-				//$caneta_azul->tampada = true;
+				$minhaCaneta = new Caneta("BIC XINGLING",0.7,"AZUL MORANGO");
+
 
 				echo "<h2>Estrutura da Classe CANETA (Public/Private/Protected)</h2><hr />";
-				print_r($caneta_azul);
+				print_r($minhaCaneta);
+
+				printf("Eu tenho uma caneta de modelo {$minhaCaneta->getModelo()} e ponta tamanho {$minhaCaneta->getPonta()}");
 
 
 				?>
