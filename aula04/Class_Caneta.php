@@ -14,7 +14,7 @@ class Caneta
 	private $cor;
 
 	// construtor
-	public function Caneta($p_Modelo,$p_Ponta,$p_Cor)
+	public function __construct($p_Modelo,$p_Ponta,$p_Cor)
 	{		
 		$this->setModelo($p_Modelo);
 		$this->setPonta($p_Ponta);
