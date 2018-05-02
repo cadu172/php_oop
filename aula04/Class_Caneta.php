@@ -7,30 +7,50 @@
 class Caneta
 {
 
-	public $modelo;
-	public $cor;
+	// atributos da classe
+	private $modelo;	
 	private $ponta;
-	protected $carga;
-	protected $tampada;
+	private $tampada;
+	private $cor;
 
-	public function rabiscar() {
-		if ( $this->tampada == true )
-		{
-			echo "<p>Impossivel rabiscar, caneta tampada</p>";
-		}
-		else {
-			echo "<p>Rabiscando....</p>";
-		}
+	// construtor
+	public function __construct($p_Modelo,$p_Ponta,$p_Cor)
+	{		
+		$this->setModelo($p_Modelo);
+		$this->setPonta($p_Ponta);
+		$this->setCor($p_Cor);
+		$this->tampar();
 	}
 
-	public function tampar() {
+	// métodos getter/setters
+	public function tampar(){
 		$this->tampada = true;
 	}
 
-	public function destampar() {
-		$this->tampada = false;
-	}	
+	public function getCor(){
+		return $this->modelo;
+	}
+	
+	public function setCor($p_Cor){
+		$this->cor = $p_Cor;
+	}
 
+
+	public function getModelo(){
+		return $this->modelo;
+	}
+	
+	public function setModelo($p_Modelo){
+		$this->modelo = $p_Modelo;
+	}
+	
+	public function getPonta(){
+		return $this->ponta;
+	}
+	
+	public function setPonta($p_Ponta){
+		$this->ponta = $p_Ponta;
+	}
 }
 
 
