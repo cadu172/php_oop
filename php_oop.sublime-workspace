@@ -4,6 +4,30 @@
 		"selected_items":
 		[
 			[
+				"stat",
+				"status"
+			],
+			[
+				"he",
+				"head\tTag"
+			],
+			[
+				"valor",
+				"valorMinDEPOSITO"
+			],
+			[
+				"nu",
+				"numConta"
+			],
+			[
+				"tw",
+				"throw\tThrow Exception"
+			],
+			[
+				"p_tipo",
+				"p_TipoConta"
+			],
+			[
 				"print",
 				"print_r"
 			],
@@ -216,10 +240,6 @@
 				"header\tTag"
 			],
 			[
-				"he",
-				"header\tTag"
-			],
-			[
 				"sect",
 				"section_main"
 			],
@@ -264,10 +284,6 @@
 				"foreach\tforeach …"
 			],
 			[
-				"valor",
-				"valorINI"
-			],
-			[
 				"valo",
 				"valorINI"
 			],
@@ -292,37 +308,19 @@
 	"buffers":
 	[
 		{
-			"file": "observacoes",
+			"file": "aula05/ContaBanco.php",
 			"settings":
 			{
-				"buffer_size": 66,
-				"encoding": "UTF-8",
-				"line_ending": "Windows",
-				"name": "- interrompido na aula 4a (metodos get/set/constru"
-			}
-		},
-		{
-			"file": "/P/flexcob/global/sendmail.asp",
-			"settings":
-			{
-				"buffer_size": 12463,
+				"buffer_size": 3502,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "aula04/Class_Caneta.php",
+			"file": "aula05/aula05.php",
 			"settings":
 			{
-				"buffer_size": 474,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "aula04/aula04.php",
-			"settings":
-			{
-				"buffer_size": 1423,
+				"buffer_size": 1366,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -369,10 +367,17 @@
 	"expanded_folders":
 	[
 		"/C/inetpub/wwwroot/phpserver/cursoemvideo/php_oop",
-		"/C/inetpub/wwwroot/phpserver/cursoemvideo/php_oop/aula04"
+		"/C/inetpub/wwwroot/phpserver/cursoemvideo/php_oop/aula02",
+		"/C/inetpub/wwwroot/phpserver/cursoemvideo/php_oop/aula03",
+		"/C/inetpub/wwwroot/phpserver/cursoemvideo/php_oop/aula04",
+		"/C/inetpub/wwwroot/phpserver/cursoemvideo/php_oop/aula05"
 	],
 	"file_history":
 	[
+		"/C/inetpub/wwwroot/phpserver/cursoemvideo/php_oop/observacoes",
+		"/P/flexcob/global/sendmail.asp",
+		"/C/inetpub/wwwroot/phpserver/cursoemvideo/php_oop/aula04/Class_Caneta.php",
+		"/C/inetpub/wwwroot/phpserver/cursoemvideo/php_oop/aula04/aula04.php",
 		"/C/inetpub/wwwroot/phpserver/cursoemvideo/php_oop/aula03/Class_Caneta.php",
 		"/C/inetpub/wwwroot/phpserver/cursoemvideo/php_oop/aula03/aula03.php",
 		"/C/inetpub/wwwroot/phpserver/cursoemvideo/php_oop/index.php",
@@ -497,121 +502,61 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "observacoes",
+					"file": "aula05/ContaBanco.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 66,
+						"buffer_size": 3502,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								10,
-								10
+								3502,
+								3502
 							]
 						],
 						"settings":
 						{
-							"auto_name": "- interrompido na aula 4a (metodos get/set/constru",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/P/flexcob/global/sendmail.asp",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 12463,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/ASP/HTML-ASP.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "aula04/Class_Caneta.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 474,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2508.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "aula04/aula04.php",
+					"buffer": 1,
+					"file": "aula05/aula05.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1423,
+						"buffer_size": 1366,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								534,
+								534
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"auto_name": "",
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 285.0,
+						"translation.y": 59.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -626,7 +571,7 @@
 	},
 	"input":
 	{
-		"height": 38.0
+		"height": 39.0
 	},
 	"layout":
 	{

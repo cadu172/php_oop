@@ -1,0 +1,8 @@
+09/10/2017
+- interrompido na aula 4a (metodos get/set/constructor)
+
+02/05/2018
+- interrompido na aula 5a, codificando a classe ContaCorrente em PHP
+- implementada a classe e incluido o arquivo aula05.php com as chamdas de teste para aclasse
+- implementando tratamento de exceções;
+- aula 5b concluida (02/05/2018) 15:59
