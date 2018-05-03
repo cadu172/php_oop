@@ -6,3 +6,7 @@
 - implementada a classe e incluido o arquivo aula05.php com as chamdas de teste para aclasse
 - implementando tratamento de exceções;
 - aula 5b concluida (02/05/2018) 15:59
+
+03/05/2018
+- aula 6a concluida (apenas video)
+- aula 6b concluida (implementada a interface IControlador e a Classe controle remoto
