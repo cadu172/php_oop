@@ -54,6 +54,10 @@ class ControleRemoto implements IControlador
 				$this->volume = $volume;
 			}			
 		}
+		else
+		{
+			throw new Exception("Impossivel Aumentar/Diminuir o volume com o aparelho desligado");
+		}
 	}
 	
 	private function getTocando()
@@ -111,30 +115,15 @@ class ControleRemoto implements IControlador
 	
 	public function maisVolume() 
 	{
-		if($this->getLigado()) 
-		{
-			$this->setVolume($this->getVolume()+5);
-		}
-		else
-		{
-			throw new Exception("Não é possível AUMENTAR o volume com o aparelho DESLIGADO");
-		}
+		$this->setVolume($this->getVolume()+5);
 	}
 
 	public function menosVolume() 
 	{
-		if ( $this->getLigado() )
+		if ( $this->getVolume()>0 )			
 		{
-			if ( $this->getVolume()>0 )			
-			{
-				$this->setVolume($this->getVolume()-5);
-			}
+			$this->setVolume($this->getVolume()-5);
 		}
-		else
-		{
-			throw new Exception("Não é possível DIMIMUIR o volume com o aparelho DESLIGADO");
-		}
-
 	}
 
 	public function ligarMudo() 
@@ -145,6 +134,10 @@ class ControleRemoto implements IControlador
 			{
 				$this->setVolume(0);
 			}
+		}
+		else
+		{
+			throw new Exception("Aparelho desligado, Nao é possível alterar o volume para mudo");
 		}
 	}
 	
@@ -157,6 +150,10 @@ class ControleRemoto implements IControlador
 				$this->setVolume(50);
 			}
 		}
+		else
+		{
+			throw new Exception("Aparelho desligado, Nao é possível deligar mudo");
+		}		
 	}
 	
 	public function play()
@@ -179,7 +176,7 @@ class ControleRemoto implements IControlador
 		}
 		else
 		{
-			throw new Exception("Impossível executar Play, aparelho DESLIGADO");
+			throw new Exception("Impossível executar Pause, aparelho DESLIGADO");
 		}		
 	}	
 
