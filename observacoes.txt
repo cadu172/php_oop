@@ -10,3 +10,8 @@
 03/05/2018
 - aula 6a concluida (apenas video)
 - aula 6b concluida (implementada a interface IControlador e a Classe controle remoto
+
+05/05/2018
+- aula 7a em andamento
+	codificando a classe lutador.
+	falta codificar a classe Luta e o arquivo do programa principal
