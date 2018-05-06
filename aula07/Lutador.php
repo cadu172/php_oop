@@ -13,7 +13,7 @@ class Lutador {
 	private $derrotas;
 	private $empates;	
 
-	// Métodos GET
+	// MÃ©todos GET
 	public function getNome() {
 		return($this->nome);
 		}
@@ -70,31 +70,30 @@ class Lutador {
 
 	public function setPeso($p_Var) {
 		
-		$this->peso = $p_Var;
-		
-		if ( $p_Var < 60 || $p_Var > 120 ) {
-			throw new Exception("Peso invalido");
-		}
-		else {
-			if ( $p_Var<76 ) {
-				$this->setCategoria("Peso Leve");
-			}
-			elseif ( $p_Var>90 ) {
-				$this->setCategoria("Peso Pesado");
-			}
-			else {
-				$this->setCategoria("Peso Médio");
-			}
-			
-			
-		}
-		
+		$this->peso = $p_Var;		
+		$this->setCategoria($p_Var);		
 
 	}
 
-	public function setCategoria($p_Var) {
-		$this->categoria = $p_Var;
+	private function setCategoria($p_Var) {
+
+		if ( $p_Var < 52.2 || $p_Var > 120.2 ) {
+			throw new Exception("Peso invalido");
 		}
+		else {
+			if ( $p_Var<70.3 ) {
+				$this->categoria = "Peso Leve";
+			}
+			elseif ( $p_Var>83.9 ) {
+				$this->categoria = "Peso Pesado";
+			}
+			else {
+				$this->categoria = "Peso MÃ©dio";
+			}			
+			
+		}
+
+	}
 
 	public function setVitorias($p_Var) {
 		$this->vitorias = $p_Var;
@@ -109,7 +108,7 @@ class Lutador {
 		}
 
 	// construtor
-	public function __construct($p_nome,$p_nacionalidade,$p_idade,$p_altura,
+	function __construct($p_nome,$p_nacionalidade,$p_idade,$p_altura,
 		$p_peso,$p_vitorias,$p_derrotas,$p_empates) {
 		
 		$this->nome = $p_nome;
@@ -127,38 +126,35 @@ class Lutador {
 
 	// metodos
 	public function apresentar() {
+	
+		echo "<p>-------------------------------------------------</p>";
+		echo "<p>Senhoras e Senhores, diretamente do ".$this->getNacionalidade().",";
+		echo " pesando ".$this->getPeso()."kg com ".$this->getVitorias()." Vitórias, ".$this->getEmpates()." empates e ".$this->getDerrotas();
+		echo " derrotas, apresentamos....".$this->getNome()."</p>";		
+	
 	}
 
 	public function status() {
+	
+		echo "<p>-------------------------------------------------</p>";
+		echo "<p>".$this->getNome()." é um peso ".$this->getCategoria();
+		echo ", já venceu ".$this->getVitorias()." vezes, empatou ".$this->getEmpates()." ";
+		echo "com ".$this->getDerrotas()." derrotas </p>";
+	
 	}
 
 	public function ganharLuta() {
+		$this->setVitorias($this->getVitorias()+1);
 	}
 
 	public function perderLuta() {
+		$this->setDerrotas($this->getDerrotas()+1);
 	}
 
 	public function empatarLuta() {
+		$this->setEmpates($this->getEmpates()+1);
 	}
 
 
 }
-
-
-$lutador = new Lutador
-(
-"Carlos Eduardo dos Santos", //$p_nome,
-"Brasileira", //$p_nacionalidade,
-36, //$p_idade,
-1.79, //$p_altura,
-98, //$p_peso,
-10, //$p_vitorias,
-2, //$p_derrotas,
-3 //$p_empates
-);
-
-echo "<pre>";
-print_r($lutador);
-echo "</pre>";
-
 ?>
