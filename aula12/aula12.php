@@ -28,7 +28,6 @@ $obj_cachorro = new Cachorro();
 $obj_canguru = new Canguru();
 $obj_tartaruga = new Tartaruga();
 
-
 echo "<br />Ave: " . $obj_ave->locomover();
 echo "<br />Peixe: " . $obj_peixe->locomover();
 echo "<br />Reptil: " . $obj_reptil->locomover();
